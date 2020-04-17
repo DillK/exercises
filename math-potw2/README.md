@@ -261,7 +261,7 @@ Gottem.
 
 # The Files
 
-See them on my [GitHub](https://github.com/DillK/math-potw2).
+See them on my [GitHub](https://github.com/DillK/exercises/tree/master/math-potw2).
 
 Thanks for reading everyone.
 

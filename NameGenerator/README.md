@@ -342,4 +342,8 @@ Even though the first Ruleset didn't produce very impressive names, I think with
 
 I think I may revisit this concept at a later date, and experiment with digraphs. For now - this met the specs!
 
-Thanks for reading! 🙋‍♂️
+See them on my [GitHub](https://github.com/DillK/exercises/tree/master/NameGenerator).
+
+Thanks for reading!
+
+Ciao 👋😎
