@@ -1,7 +1,7 @@
 # Overview
-<strong>(⊙_⊙)？</strong>
+**(⊙_⊙)**
 
-<b>WOW!</b> You kids are seriously this smart?! I can't believe you are already being taught advanced combinatorics. I didn't start doing these kinds of questions until taking discrete mathematics in university! You kids should be so proud! You're making the rest of us parents look silly.
+**WOW!** You kids are seriously this smart?! I can't believe you are already being taught advanced combinatorics. I didn't start doing these kinds of questions until taking discrete mathematics in university! You kids should be so proud! You're making the rest of us parents look silly.
 
 I'm going to write a little guide for us small brain parents about how I was able to solve your homework.
 
@@ -12,14 +12,14 @@ Make one group of two digits, one group of three digits, and one group of four d
 
 When you multiply the first group of two digits by the second group of three digits you get the four digit number as your answer.
 
-<strong>Example: 39 x 186 = 7254</strong>
+**Example: 39 x 186 = 7254**
 
 There are six other possible combinations.
 
 Part a: Solve the problem any way you can. Show your work.
 Part b: Explain your thinking in writing. How did you come to your final answer?
 
-<strong><em>Take a pic of your work. OR create a doc and submit to this assignment when you are done please.</em></strong>
+***Take a pic of your work. OR create a doc and submit to this assignment when you are done please.***
 
 # The Breakdown
 Alrighty, so let's really think about this problem. We have:
@@ -93,7 +93,7 @@ Woah. With only 2 digits in 2 positions we somehow had 72 possible choices we co
 9 choices, multiplied by 8 choices, multiplied by 7 choices is 504 possible permutations of choices we could have made.
 ```
 
-<strong>504?!</strong> Uh oh. The number of choices are going up pretty fast.
+**504?!** Uh oh. The number of choices are going up pretty fast.
 
 You readers might be seeing a pattern happening here. Each time we select a new digit, the number of choices we can make for the next digit is reduced by 1.
 
@@ -115,13 +115,13 @@ Go ahead. Try punching that in on your calculator. This is going to be a big num
 9! = 362,880 possible permutations
 </details>
 
-<strong>OMG! (╯°□°）╯︵ ┻━┻)</strong>
+**OMG! (╯°□°）╯︵ ┻━┻)**
 
 We had that many possible choices in total?! How were we supposed to do this on paper? Is there some kind of crazy trick?! Maybe Mrs. B can show me her magical ways.
 
 Ok. Relax. Breathe.
 
-I have this tiny little brain, but I'm sure we can figure this out. What could I use to solve this ... If only I could think like a ... Like a ... <i>Computer</i> ... <b>OH WAIT!</b>
+I have this tiny little brain, but I'm sure we can figure this out. What could I use to solve this ... If only I could think like a ... Like a ... *Computer* ... **OH WAIT!**
 
 I'M A -
 
@@ -130,15 +130,15 @@ I'M A -
 
 I can't believe I didn't think of that first. I can just tell a computer to do it for me! I'll just put this back
 
-<strong>┳━┳ ノ( ゜-゜ノ)</strong>
+**┳━┳ ノ( ゜-゜ノ)**
 
 In computer science this is actually an extremely similar problem to what we would call a password cracker. The only difference is we are dealing with less choices per position. I've even made one before!
 
 *Note to self: Are we sure Mrs. B isn't secretly teaching the kids to be computer hackers?*
 
-<strong>If you're still reading, I'm impressed! This is where I'm going to show off this big ol fat head of mine though. Just remember that this took me many years to learn - including university.
+**If you're still reading, I'm impressed! This is where I'm going to show off this big ol fat head of mine though. Just remember that this took me many years to learn - including university.
 
-<em>Go ahead and skip to the end for the answers!👌</em></strong>
+*Go ahead and skip to the end for the answers!👌***
 
 ## Step 1 - Let's just calculate all the possible permutations
 I'm going to be using a programming language called JavaScript. It's running on a programming environment called Node.js
@@ -236,9 +236,9 @@ Great! I generated two files. The first file has all the possible answers to eac
 
 # 🌟Big Brain🌟
 
-<strong>
+**
 🥁🥁🥁 DRUMROLL 🥁🥁🥁
-</strong>
+**
 
 ```clike
 [
@@ -251,11 +251,11 @@ Great! I generated two files. The first file has all the possible answers to eac
   "Is 48 times 159 equal to 7632? 48 * 159 = 7632 so the answer is yes!"
 ]
 ```
-<strong>
+**
 ( •_•)>⌐■-■
 
 (⌐■_■)
-</strong>
+**
 
 Gottem.
 
